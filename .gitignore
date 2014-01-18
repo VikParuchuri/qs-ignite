@@ -1,0 +1,7 @@
+python/
+*.log
+.idea/
+*~
+*.pyc
+happsee_data.csv
+happsee_info.csv
