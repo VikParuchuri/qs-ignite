@@ -34,14 +34,6 @@
 
 <h2><a href="mailto:vik@equirio.com">vik@equirio.com</a></h2>
 </div>
-      <div class='step'  data-x="0" data-y="0" data-scale="2">
-    
-<h2>Before we start</h2>
-
-<ul>
-<li>Follow along at vikparuchuri.github.io/qs-ignite</li>
-</ul>
-</div>
       <div class='step'  data-x="1000" data-y="1000" data-scale="2">
     
 <h2>The most important question</h2>
@@ -84,6 +76,18 @@
 <li>Show periodic reminders</li>
 </ul>
 </div>
+      <div class='step'  data-x="4000" data-y="1000" data-scale="1">
+    
+<h2>Some screenshots</h2>
+
+<div>
+
+<img alt="1" src="http://happsee.com/static/img/scr/hs1-4.png" style="width:300px; height:600px; padding-right: 40px; float:left;" />
+<img alt="2" src="http://happsee.com/static/img/scr/hs3-4.png" style="width:300px; height:600px; padding-right: 40px; float:left;" />
+<img alt="3" src="http://happsee.com/static/img/scr/hs4-4.png" style="width:300px; height:600px; float:left;" />
+
+</div>
+</div>
       <div class='step'  data-x="5000" data-y="2000" data-scale="2">
     
 <h2>Have been tracking happiness since October 2013</h2>
@@ -94,78 +98,76 @@
     
 <h2>And here is a happiness map</h2>
 
-<p>Insert map here</p>
+<div>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+    <link rel="stylesheet" href="css/happiness_map.css"/>
+
+    <div id="happiness-map"></div>
+
+
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+    <script src="js/rainbowvis.js"></script>
+    <script src="js/happiness_map.js"></script>
+</div>
 </div>
       <div class='step'  data-x="7000" data-y="0" data-scale="2">
     
-<h2>And moods over time...</h2>
+<h2>Negative moods over time...</h2>
 
-<p>Insert mood graph here</p>
+<p><img src="images/negative_moods.png" alt="negative moods"></p>
 </div>
-      <div class='step'  data-x="8000" data-y="1000" data-scale="1">
+      <div class='step'  data-x="8000" data-y="0" data-scale="2">
     
-<h2>Recently, I added the ability to track a lot of passive factors</h2>
+<h2>And the positive moods</h2>
 
-<h3>Like call and text frequency</h3>
-
-<p>Insert call # graph</p>
+<p><img src="images/positive_moods.png" alt="positive moods"></p>
 </div>
-      <div class='step'  data-x="9000" data-y="2000" data-scale="1">
+      <div class='step'  data-x="9000" data-y="1000" data-scale="1">
     
-<h2>Activity</h2>
+<h2>Track passive factors like activity</h2>
 
-<p>Insert activity # graph</p>
+<p><img src="images/activity_tracking.png" alt="activity tracking"></p>
 </div>
       <div class='step'  data-x="10000" data-y="2000" data-scale="2">
     
 <h2>And periodic location</h2>
 
-<p>Insert map</p>
+<div>
+    <div id="location-map"></div>
+
+    <script src="js/location_map.js"></script>
 </div>
-      <div class='step'  data-x="11000" data-y="0" data-scale="1">
-    
-<h2>What does this tell me?</h2>
 </div>
-      <div class='step'  data-x="12000" data-y="1000" data-scale="1">
+      <div class='step'  data-x="11000" data-y="1000" data-scale="1">
     
 <h2>People matter, a lot</h2>
 
-<p>Insert word cloud of word frequency vs happiness</p>
+<p><img src="images/word_cloud.png" alt="word cloud"></p>
+</div>
+      <div class='step'  data-x="12000" data-y="1000" data-scale="2">
+    
+<h2>Being in new circumstances makes me happy</h2>
+
+<p><img src="images/word_cloud.png" alt="word cloud"></p>
 </div>
       <div class='step'  data-x="13000" data-y="2000" data-scale="1">
     
 <h2>Being tired matters more than I thought it does</h2>
 
-<p>Graph of tiredness vs energy as correlated to happiness</p>
+<p><img src="images/energy_over_time.png" alt="energy"></p>
 </div>
-      <div class='step'  data-x="14000" data-y="0" data-scale="2">
-    
-<h2>Recovery from bad circumstances is faster than I thought</h2>
-
-<p>Graph of time elapsed since unhappy mood vs happy mood</p>
-</div>
-      <div class='step'  data-x="15000" data-y="1000" data-scale="2">
-    
-<h2>Mood tracking is more powerful when its not mandatory</h2>
-
-<p>Graph of engagement with tool over time</p>
-</div>
-      <div class='step'  data-x="16000" data-y="1000" data-scale="2">
-    
-<h2>Being in new circumstances makes me happy</h2>
-
-<p>Graph of location vs happiness</p>
-</div>
-      <div class='step'  data-x="17000" data-y="0" data-scale="1">
+      <div class='step'  data-x="14000" data-y="0" data-scale="1">
     
 <h2>What am I thinking for the future?</h2>
 
 <ul>
 <li>Use machine learning to predict happiness</li>
 <li>Apply my own experience from the past to the future</li>
+<li>Do image analysis to figure out emotion</li>
 </ul>
 </div>
-      <div class='step'  data-x="18000" data-y="0" data-scale="1">
+      <div class='step'  data-x="15000" data-y="0" data-scale="1">
     
 <h2>More future capabilities</h2>
 
@@ -175,7 +177,7 @@
 <li>Pull in data from other sources</li>
 </ul>
 </div>
-      <div class='step'  data-x="19000" data-y="1000" data-scale="2">
+      <div class='step'  data-x="16000" data-y="1000" data-scale="2">
     
 <h2>Want to try it?</h2>
 
@@ -185,7 +187,7 @@
 <li>Contact me at <a href="mailto:vik@equirio.com">vik@equirio.com</a></li>
 </ul>
 </div>
-      <div class='step'  data-x="19000" data-y="0" data-scale="2">
+      <div class='step'  data-x="17000" data-y="0" data-scale="2">
     
 <h2>Thanks for listening!</h2>
 
